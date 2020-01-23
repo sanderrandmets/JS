@@ -5,21 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="stiil.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body style="background-color:white;">
     <div class="calc">
         <div class="answer" id="answer"></div>
-        <input type="text" name="first" id="first">
-        <select name="sign" id="sign">
-            <option value="*">X</option>
-            <option value="/">÷</option>
-            <option value="+">+</option>
-            <option value="-">-</option>
-        </select>
-        <input type="text" name="second" id="second">
-        <button id="equals" class="btn">Arvuta</button>
+        <div class="grid">
+            <button class="btn">7</button>
+            <button class="btn">8</button>
+            <button class="btn">9</button>
+            <button class="btn">+</button>
+            <button class="btn">4</button>
+            <button class="btn">5</button>
+            <button class="btn">6</button>
+            <button class="btn">-</button>
+            <button class="btn">1</button>
+            <button class="btn">2</button>
+            <button class="btn">3</button>
+            <button class="btn">*</button>
+            <button class="btn">0</button>
+            <button id="equals" class="btn span-2">Arvuta</button>
+            <button class="btn">÷</button>
+        </div>
     </div>
+    
     <script src="app.js"></script>
+
+    
 </body>
 </html>

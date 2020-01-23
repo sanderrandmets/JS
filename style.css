@@ -1,5 +1,5 @@
 html{
-    height: 1000px;
+    height: 100%;
     box-sizing: border-box;
 }
 
@@ -61,4 +61,15 @@ input{
     border: none;
     background-color: aliceblue;
     border-radius: 5px; 
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.span-2 {
+    grid-column: span 2;
+    background-color: blue;
 }
