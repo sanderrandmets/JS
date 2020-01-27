@@ -54,6 +54,10 @@ body{
     height: 4rem;
 }
 
+btn.active{
+
+}
+
 input{
     padding: 1rem;
     text-align: center;
